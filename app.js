@@ -6,7 +6,8 @@ var logger = require('morgan');
 var cors = require('cors');
 
 var indexRouter = require('./routes/index');
-
+const cors = require('cors');
+app.use(cors({ origin: 'https://valeri-ai.vercel.app/' }));
 var app = express();
 
 app.set('views', path.join(__dirname, 'views'));
