@@ -1,0 +1,37 @@
+{
+    "name": "talking-avatar-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pavlo91/talking-avatar-backend.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+      "url": "https://github.com/pavlo91/talking-avatar-backend/issues"
+    },
+    "homepage": "https://github.com/pavlo91/talking-avatar-backend#readme",
+    "dependencies": {
+      "axios": "^1.8.3",
+      "compromise": "^14.14.4",
+      "cookie-parser": "^1.4.7",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.7",
+      "express": "^4.21.2",
+      "get-audio-duration": "^4.0.1",
+      "gtts": "^0.2.1",
+      "http-errors": "^2.0.0",
+      "lodash": "^4.17.21",
+      "microsoft-cognitiveservices-speech-sdk": "^1.42.0",
+      "morgan": "^1.10.0",
+      "node-gtts": "^2.0.2"
+    }
+  }
+  
